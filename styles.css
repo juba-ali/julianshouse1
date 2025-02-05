@@ -107,6 +107,11 @@ header {
     font-size: 1.2rem;
 }
 
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
 /* Media Query */
 @media (max-width: 600px) {
     #projects .project-tiles {
