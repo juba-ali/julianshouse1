@@ -112,6 +112,40 @@ header {
     margin-top: -10px;
 }
 
+/* Tech Stack */
+#tech-stack {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.stack-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.stack-card {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    transition: transform 0.2s;
+}
+
+.stack-card i {
+    font-size: 50px;
+}
+
+.stack-card:hover {
+    transform: scale(1.1);
+}
+
+
 /* Projects Section */
 #projects {
     padding: 50px;
