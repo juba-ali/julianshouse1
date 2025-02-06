@@ -7,6 +7,8 @@
     
     <!-- Link to Google Fonts and styles -->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,10 +18,11 @@
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <nav id="navbar">
             <ul>
-                <li><a href="#welcome-section">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#welcome-section" onclick="closeMenu()">Home</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#tech-stack" onclick="closeMenu()">Tech Stack</a></li>
                 <li><a href="https://github.com/juba-ali" target="_blank" id="profile-link">GitHub</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -29,6 +32,33 @@
         <h2>Meet Julian. He is passionate about people. And he enjoys</h2>
         <h1>Crafting Digital Experiences with Purpose</h1>
         <p>Web Developer | Designer | Fisherman</p>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack">
+        <h2>Tech Stack</h2>
+        <div class="stack-grid">
+            <div class="stack-card">
+                <i class="devicon-html5-plain colored"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="stack-card">
+                <i class="devicon-css3-plain colored"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="stack-card">
+                <i class="devicon-wordpress-plain colored"></i>
+                <p>WordPress</p>
+            </div>
+            <div class="stack-card">
+                <i class="devicon-figma-plain colored"></i>
+                <p>Figma</p>
+            </div>
+            <div class="stack-card">
+                <i class="devicon-javascript-plain colored"></i>
+                <p>JavaScript</p>
+            </div>
+        </div>
     </section>
 
     <!-- Projects Section -->
