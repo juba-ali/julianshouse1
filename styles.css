@@ -87,15 +87,14 @@ header {
 }
 
 @media (max-width: 768px) {
-    .burger-menu {
-        color: blue; /* Change icon color */
+    #navbar {
+        color: #ffcf33; /* Change icon color */
     }
 
-    .burger-menu:hover {
-        color: darkblue; /* Optional hover effect */
+    #navbar:hover {
+        color: #ffcf33; /* Optional hover effect */
     }
 }
-
 
 /* Welcome Section */
 #welcome-section {
