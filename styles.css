@@ -165,7 +165,9 @@ header {
 }
 
 footer {
-    background-color: #1e1e1e
+    background-color: #1e1e1e;
+    padding-top: 10px;
+    paddding-bottom: 10px;
 }
 
 #contact {
